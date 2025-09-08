@@ -1,0 +1,17 @@
+/* Fluid container for all sections */
+.container { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+
+/* Hero two-column layout that stacks on phones */
+.grid-hero { display: grid; grid-template-columns: 1.2fr 1fr; gap: 24px; }
+@media (max-width: 820px) { .grid-hero { grid-template-columns: 1fr; } }
+
+/* iPhone-friendly tap targets & no zoom-on-focus */
+button, input, select { font-size: 16px; min-height: 44px; }
+
+/* Fluid headline size */
+.h1-fluid { font-size: clamp(28px, 6vw, 44px); line-height: 1.1; font-weight: 900; }
+
+/* Responsive grid for “Popular picks” */
+.picks-grid { display: grid; gap: 16px; grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 1024px) { .picks-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .picks-grid { grid-template-columns: 1fr; } }
