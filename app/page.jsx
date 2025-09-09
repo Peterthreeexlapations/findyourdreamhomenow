@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
 // ===== EDIT THIS URL =====
-const APPS_SCRIPT_WEB_APP_URL = "https://script.google.com/macros/s/AKfycby1jFyAjBuD4s_Oji3545eapChDUoqnh8xTAlkIIb6JYTfdC_n5zpo28Qbu6s76hIA/exec";
+const APPS_SCRIPT_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwm-ORJDMhGvxqPqLFYUpdO7nIf3gz0kdcJrbB-f739as8ZCuDKAFNK49dhFdtmVaA/exec";
 // =========================
 
 const BRAND = "Suncoast Home Lists";
