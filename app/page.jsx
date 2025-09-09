@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 const APPS_SCRIPT_WEB_APP_URL = ""; // paste your Web App URL when ready
 const BRAND = "Suncoast Home Lists";
 const CITY = "South Florida";
-const PRICE_POINT = 750000;
+const PRICE_POINT = 1500000;
 const PHONE = "(954) 770-2500";
 // ======================
 
