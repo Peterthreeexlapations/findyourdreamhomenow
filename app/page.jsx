@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 // ===== EDIT THESE =====
-const APPS_SCRIPT_WEB_APP_URL = ""; // paste your Web App URL when ready
+const APPS_SCRIPT_WEB_APP_URL = "https://script.google.com/macros/s/AKfycby1jFyAjBuD4s_Oji3545eapChDUoqnh8xTAlkIIb6JYTfdC_n5zpo28Qbu6s76hIA/exec"; // paste your Web App URL when ready
 const BRAND = "Suncoast Home Lists";
 const CITY = "South Florida";
 const PRICE_POINT = 50000000;
