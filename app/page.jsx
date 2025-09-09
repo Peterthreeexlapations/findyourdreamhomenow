@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 // ===== EDIT THIS URL =====
-const APPS_SCRIPT_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwu5r7H29c_f69z-cfKZmWqYaTAsKv_MrQYdlTx_jAHu36emTfM4dgjOzgBh-n4KnM/exec"; // paste your Web App URL ending with /exec
+const APPS_SCRIPT_WEB_APP_URL = "https://script.google.com/macros/s/AKfycby1jFyAjBuD4s_Oji3545eapChDUoqnh8xTAlkIIb6JYTfdC_n5zpo28Qbu6s76hIA/exec"; // paste your Web App URL ending with /exec
 // =========================
 
 const BRAND = "Suncoast Home Lists";
