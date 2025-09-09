@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 const APPS_SCRIPT_WEB_APP_URL = ""; // paste your Web App URL when ready
 const BRAND = "Suncoast Home Lists";
 const CITY = "South Florida";
-const PRICE_POINT = 1500000;
+const PRICE_POINT = 50000000;
 const PHONE = "(954) 770-2500";
 // ======================
 
@@ -164,7 +164,7 @@ function FormCard({ onSubmit, submitting, form, setForm, maxPrice, setMaxPrice, 
           <Input label="Target ZIP or area" name="zip" value={zip} onChange={v=>setZip(v)} autoComplete="postal-code" inputMode="numeric" enterKeyHint="next" />
           <div>
             <Label>Max price: ${maxPrice.toLocaleString()}</Label>
-            <input type="range" min={150000} max={1500000} step={5000} value={maxPrice} onChange={e=>setMaxPrice(parseInt(e.target.value))} style={{ width: "100%" }} />
+            <input type="range" min={150000} max={50000000} step={5000} value={maxPrice} onChange={e=>setMaxPrice(parseInt(e.target.value))} style={{ width: "100%" }} />
           </div>
           <div>
             <Label>Move‑in time</Label>
